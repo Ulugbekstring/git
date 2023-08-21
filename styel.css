@@ -320,3 +320,26 @@ background: rgba(82, 0, 217, 0.10);
     background: rgba(82, 0, 217, 0.10);
 
 }
+
+.xar{
+    color: #11002D;
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: 91%; /* 58.24px */
+}
+
+.grow{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content:center ;
+}
+
+.fasl{
+    width: 295px;
+height: 220px;
+border-radius: 5px;
+background: rgba(82, 0, 217, 0.10);
+}
