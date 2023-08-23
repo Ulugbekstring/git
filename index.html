@@ -134,12 +134,12 @@
             </div>
     </div>
 </div>
-
+<marquee behavior="Frame" direction="">
 <div class="xar">
     <p>Великобритания Германия Франция Чехия Дания Чехия </p>
     <p>Великобритания Германия Франция Чехия Дания Чехия </p>
 </div>
-
+</marquee>
 
 <div class="yozuv">
     <p>Отзывы</p>
@@ -184,6 +184,16 @@
     </div>
     
 </div>
+
+<script>
+    window.addEventListener("scroll",(event) => {
+        if(document.body.scrollTop > 600|| document.documentElement.scrollTop > 600) {
+            document.querySelector("nav").style.background = "#5200D99a"
+        }else{
+            document.querySelector("nav").style.background = "unset"
+        }
+    })
+</script>
 
 </body>
 

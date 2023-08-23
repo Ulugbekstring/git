@@ -44,6 +44,7 @@ nav {
     box-sizing: border-box;
     position: fixed;
     top: 0;
+    backdrop-filter: blur(10px);
 }
 
 nav ul.links {
